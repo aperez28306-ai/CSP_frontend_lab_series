@@ -24,19 +24,19 @@ console.log(typeof mystery);
 
 // TODO 4: Declare const schoolName, try to reassign
 const schoolName = "Columbus";
-console.log(schoolName);
-const schoolName = "Columbus2";    //makes an error//
-console.log(schoolName);          //error//
+console.log(schoolName)
+//const schoolName = "Belen";       DOES NOT WORK CAUSE ERROR
 
 
 
 // TODO 5: Create three valid camelCase variables and print them
-var firstName = Andres;
+var firstName = "Andres";
 console.log(firstName);
-var lastName = Perez;
+var lastName = "Perez";
 console.log(lastName);
-var birthYear = 2010;
+var birthYear = "2010";
 console.log(birthYear);
+
 
 
 // 🚀 Stretch Goals (optional)
@@ -57,3 +57,11 @@ Challenges I encountered were TODO #3 which I had to learn typeof and the stretc
    3. Where else could this programming concept be useful?
 Javascript could be useful in making interactive websites 
    =========================================================== */
+
+   //FRQ
+let width=2;
+let height=1;
+let area= width * height;
+let perimeter= 2 * (Number(height) + Number(width));
+console.log(`The area of the rectangle is ${area}`)
+console.log(`The perimeter of the rectangle is ${perimeter}`)
