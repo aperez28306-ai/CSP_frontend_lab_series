@@ -46,6 +46,7 @@ var age = 14;
 console.log("I am " + age +" years old");
 console.log(`I am ${age} years old`);
 
+
 /* ===========================================================
    🎟 EXIT TICKET
    1. What new concept or skill did you learn in this lab?
@@ -60,7 +61,7 @@ Javascript could be useful in making interactive websites
 
    //FRQ
 let width=2;
-let height=1;
+let height=2;
 let area= width * height;
 let perimeter= 2 * (Number(height) + Number(width));
 console.log(`The area of the rectangle is ${area}`)
