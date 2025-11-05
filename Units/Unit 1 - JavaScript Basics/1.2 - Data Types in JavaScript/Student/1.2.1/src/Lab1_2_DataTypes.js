@@ -82,8 +82,4 @@ testNumbers.forEach(n => {
 });
 
 // - localeCompare() example
-const word1 = "apple";
-const word2 = "banana";
-console.log(`Comparing ${word1} with ${word2}: ${word1.localeCompare(word2)}`);
-console.log(`Comparing ${word2} with ${word1}: ${word2.localeCompare(word1)}`);
-console.log(`Comparing ${word1} with ${word1}: ${word1.localeCompare(word1)}`);
+console.log("apple".localeCompare("banana"))

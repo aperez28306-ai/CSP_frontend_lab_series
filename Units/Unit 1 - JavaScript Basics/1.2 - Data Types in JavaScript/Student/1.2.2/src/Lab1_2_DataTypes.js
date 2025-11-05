@@ -102,3 +102,4 @@ I'd just put more console.log everywhere to see what's actually happening instea
    4. What would you try next time to debug faster?
 >>>>>>> upstream/main
    =========================================================== */
+   console.log("hello world")
