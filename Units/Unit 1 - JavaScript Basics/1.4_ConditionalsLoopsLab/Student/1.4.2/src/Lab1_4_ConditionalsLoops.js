@@ -4,11 +4,21 @@
    =========================================================== */
 
 // TODO: Part A – Conditionals
-// 1. Create a variable 'temperature' and assign a number value.
+// 1. Create a variable 'temperature' and assign a number value.\
+let temp=1
 // 2. Write an if/else statement that prints:
 //    - "It's hot!" if temperature > 85
 //    - "It's mild." if between 60 and 85
 //    - "It's cold!" otherwise
+for (let temp=1; temp<=100; temp++){
+   if(temp>=85){
+      console.log("It's hot!");
+   } else if 
+   (temp>=60){
+      console.log("It's mild");
+   } else 
+      {console.log("it's cold");}
+}
 // 3. Add an else-if for exactly 100 that prints "Boiling point!"
 // 4. Create a variable 'grade' (A–F) and print "Pass" if grade is not F.
 // 5. Reflect in a comment: Why is the order of conditions important?
