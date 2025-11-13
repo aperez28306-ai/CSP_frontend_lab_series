@@ -19,7 +19,7 @@ if (score < 0 || score > 100) {
 } else {
     console.log("F");
 }
-//4)
+//4) Ask for Fahrenheit → if > 90 → Too hot! else if < 60 → Too cold! else Just right!
 for (let temp=1; temp<=100; temp++){
    if(temp>=90){
       console.log("It's hot!");
