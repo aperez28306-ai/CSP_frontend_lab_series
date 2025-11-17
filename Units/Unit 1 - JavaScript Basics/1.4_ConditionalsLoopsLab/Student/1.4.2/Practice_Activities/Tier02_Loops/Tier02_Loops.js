@@ -6,7 +6,9 @@ console.log("TEST - TIER 2")
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
+
 console.log("-----------------------------")
+
 //7) Use while with n-- from 10..0, then print Liftoff!
 let n = 10;
 while (n > 0) {
@@ -23,3 +25,14 @@ console.log(typeof base)
 for (let p = 1; p <= 10; p++){
     console.log(`${base} x ${p} = ${base*p}`)
 }
+
+//10)
+
+let SECRET = "explorers"
+let = pw
+
+do{
+    pw = prompt("Enter password")
+
+} while(pw != SECRET)
+    

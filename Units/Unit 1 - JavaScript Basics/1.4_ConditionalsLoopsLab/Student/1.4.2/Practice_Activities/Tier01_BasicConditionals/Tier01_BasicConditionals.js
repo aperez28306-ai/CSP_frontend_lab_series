@@ -30,3 +30,17 @@ for (let temp=1; temp<=100; temp++){
       {console.log("Just right!");
 }
 }
+
+//Even or Odd
+
+let num = Number(prompt("Enter a number"))
+
+if(Number.isNaN(num)){
+    alert("Please enter a number.")
+} else {
+    if (num % 2 == 0) {
+        alert ("EVEN")
+    } else {
+        alert("ODD")
+    }
+}

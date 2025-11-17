@@ -27,3 +27,16 @@ for(let i = 0; i < arr.length; i++){
         console.log(arr[i])
     }
 }
+
+console.log("-----------------------------------------------------")
+
+
+//star pyrimid
+
+for(let x=0; x<5; x++){
+    let row = ""
+    for(let y = 0; y <= x; y++){
+        row+= "*";
+    }
+    console.log(row)
+}
