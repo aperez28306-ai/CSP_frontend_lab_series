@@ -10,11 +10,11 @@ The goal of this worksheet is to build **function muscle memory**.
 Write 5 different function declarations (only the headers + empty bodies).  
 Example: `function sayHello() { }`
 
-1.
-2.
-3.
-4.
-5.
+1. function sayBye( ) { }
+2. function allowIn( ) { }
+3. function accessDenied( ) { }
+4. function markCorrect( ) { }
+5. function askName( ) { }
 
 ---
 
@@ -24,9 +24,9 @@ Rewrite 3 of your functions from Part A to include **at least one parameter**.
 
 Example: `function sayHello(name) { }`
 
-1.
-2.
-3.
+1. function sayBye(name) { }
+2. function allowIn(name) { }
+3. function askName(name) { }
 
 ---
 
@@ -40,11 +40,23 @@ Examples:
 - Return an object or array
 
 Write them here:
-
-1.
-2.
-3.
-
+```
+1. function sayBye(name) { 
+return 'Bye ${name}!';
+}
+-------------------------------------
+2. function allowIn(name) { 
+    if(name == "John"){
+        return "Access Granted"
+    } else{
+        return "Access Denied"
+    }
+}
+-------------------------------------
+3. function askName(name) {
+    return 'Hello ${name}!';
+ }
+```
 ---
 
 ### Part D – Calls with Arguments
@@ -57,5 +69,13 @@ Example:
 sayHello("John");
 sayHello("Ana");
 ```
+```
+1. sayBye("Luke");
+   sayBye("Vader");
 
+2. allowIn("Mario");
+   allowIn("John");
+
+3. askName("Lucy");
+   askName("Luigi");
 
