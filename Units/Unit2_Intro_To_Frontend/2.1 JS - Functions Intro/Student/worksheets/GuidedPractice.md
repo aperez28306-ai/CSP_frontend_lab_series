@@ -27,6 +27,10 @@ function sayHello(name) {
 
 sayHello("Mary");
 sayHello("John");
+
+1. say hello
+2. name
+3. console.log('Hello)
 ```
 
 3.
